@@ -1,0 +1,1 @@
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:sculk_shrieker",count:3}},distance=..2,sort=nearest,limit=1] at @s run function sculkin:blocks/fabricator/fabr_crafting_2

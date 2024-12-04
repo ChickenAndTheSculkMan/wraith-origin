@@ -1,0 +1,11 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute unless entity @s[tag=sculkin.apostle] run tag @s add sculkin.apostle"
+    },
+    "interval": 200,
+    "hidden": true,
+    "name": "hidden",
+    "description": "hidden"
+}

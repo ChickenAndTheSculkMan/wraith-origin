@@ -1,0 +1,10 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "scoreboard players add @s wraith_origin_souls 5"
+    },
+    "cooldown": 1,
+    "name": "Soul eater Omega",
+    "description": "Due to being made from sculk, you posses the ability to store souls from the fallen (5 souls per kill)"
+}

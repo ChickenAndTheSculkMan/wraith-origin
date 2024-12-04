@@ -1,0 +1,10 @@
+{
+    "type": "origins:target_action_on_hit",
+    "name": "Pure infestastion",
+    "description": "Your nearly divine nature makes you infest anything you lay your hands on, This is much faster than the normal infest ability and has no range of which you must be present",
+    "cooldown": 1,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute unless entity @s[type=minecraft:player] unless entity @s[tag=sculkin.infected] unless entity @s[tag=sculkin.pure_infected] run function sculkin:infection/pure/pure_infection_prime"
+    }
+}

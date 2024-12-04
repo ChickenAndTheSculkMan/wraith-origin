@@ -1,0 +1,22 @@
+{
+    "type": "origins:active_self",
+    
+"entity_action": {
+     "type": "origins:add_velocity",
+     "space": "local",
+     "z": 3
+},
+
+"key": {
+    "key": "key.origins.primary_active",
+    "continous": false
+},
+"hud_render": {
+"should_render": true,
+"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+"bar_index": 18
+},
+"cooldown": 120,
+"name": "Gravitational Dash",
+"description": "Using your improved body, use the sculk's interdimensional power to bend a small area of gravity around your legs, propelling you forward. WARNING: FALL DAMAGE STILL EXISTS"
+}

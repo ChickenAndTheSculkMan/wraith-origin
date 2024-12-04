@@ -1,0 +1,1 @@
+execute as @e[tag=sculkin.pure_infected,type=!player] at @s run function sculkin:infection/infection_increase

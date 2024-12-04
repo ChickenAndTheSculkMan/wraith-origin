@@ -1,0 +1,2 @@
+tellraw @s {"bold":true,"color":"blue","text":"CHOOSE A SOULSEER (PER 10K SOULS)"}
+tellraw @s {"bold":true,"clickEvent":{"action":"run_command","value":"/function sculkin:items/weapons/soulseer_set/legionary/legionary_grant"},"color":"dark_blue","text":"LEGIONARY"}

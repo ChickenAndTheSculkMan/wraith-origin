@@ -1,0 +1,19 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function sculkin:wraith/apostle/power_apostle_regen"
+    },
+    "cooldown": 20,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continous": false
+    },
+"hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 18
+},
+    "name": "Cellular Regrowth EX",
+    "description": "Use 5 souls to cause cellular regrowth within your sculk, causing you to regenerate. Heals twice as much"
+}

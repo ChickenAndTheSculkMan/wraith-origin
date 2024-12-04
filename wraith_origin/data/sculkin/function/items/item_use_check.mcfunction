@@ -1,0 +1,2 @@
+execute if items entity @s[tag=!sculkin.proto_gravemind] weapon.mainhand warped_fungus_on_a_stick[minecraft:custom_data={sculkinpendant:1b}] run function sculkin:wraith/apostle/apostle_evolve
+execute if items entity @s[tag=!sculkin.proto_gravemind] weapon.mainhand warped_fungus_on_a_stick[minecraft:custom_data={sculkinlegionary:1b}] run function sculkin:items/weapons/soulseer_set/legionary/legionary_check_ab

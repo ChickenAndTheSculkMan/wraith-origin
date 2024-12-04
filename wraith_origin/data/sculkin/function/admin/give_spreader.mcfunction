@@ -1,0 +1,1 @@
+summon item ~ ~0.5 ~ {Item:{id:"minecraft:item_frame",count:1,components:{"minecraft:item_name":'"Spore spreader"',"minecraft:custom_model_data":729832,"minecraft:entity_data":{id:"minecraft:item_frame",Fixed:1b,Invisible:1b,Silent:1b,Invulnerable:1b,Tags:["sculkin.block","sculkin.block_spreader"]}}}}

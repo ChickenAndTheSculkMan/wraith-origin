@@ -1,0 +1,3 @@
+execute unless block ~ ~ ~ blue_stained_glass run function sculkin:blocks/spore_spreader/spreader_break
+tag @e[tag=!sculkin.infected,type=!player,type=!warden,type=!item,type=!arrow,type=!trident,type=!item_display,team=!sculkin.infected_team,type=!painting,type=!block_display,type=!text_display,distance=..20] add sculkin.infected
+execute if entity @e[type=player,distance=..25] run particle warped_spore ~ ~ ~ 20 20 20 0.2 30 normal

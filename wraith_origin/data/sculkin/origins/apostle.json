@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"sculkin:sculked",
+		"sculkin:infest",
+		"sculkin:sculked_tagged",
+		"sculkin:apostle_soul_eater",
+		"sculkin:death_devourer",
+		"sculkin:death_devouroid",
+		"sculkin:sculk_connection",
+		"sculkin:sky_fright",
+		"sculkin:burnsculked",
+		"sculkin:sculk_dash",
+		"sculkin:regenless",
+		"sculkin:apostle_regen",
+        "sculkin:apostle_tagged",
+		"sculkin:wraith_health"
+	],
+	"icon": {
+		"id":	"minecraft:sculk_sensor"
+},
+	"order": 12,
+	"impact": 3,
+	"name": "Apostle",
+	"description": "Apostles are the first evolution of wraiths, at this point, it is estamated that over 80% of body mass has been assimilated. They are rare, but not impossible to find. Unlike wraiths, however, apostles are much stronger and have access to new blocks due to their strenghtend connection with the hivemind. They are the most mobile out of the Evolutions.",
+    "unchoosable": true
+}

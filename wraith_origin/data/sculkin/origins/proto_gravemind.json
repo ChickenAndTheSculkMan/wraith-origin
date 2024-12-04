@@ -1,0 +1,27 @@
+{
+	"powers": [
+		"sculkin:sculked",
+		"sculkin:proto_infest",
+		"sculkin:sculked_tagged",
+		"sculkin:proto_soul_eater",
+		"sculkin:death_devourer",
+		"sculkin:death_devouroid",
+		"sculkin:sculk_connection",
+		"sculkin:sky_fright",
+		"sculkin:burnsculked",
+		"sculkin:regenless",
+		"sculkin:apostle_regen",
+        "sculkin:apostle_tagged",
+		"sculkin:wraith_health",
+		"sculkin:proto_tagged",
+		"sculkin:proto_prim"
+	],
+	"icon": {
+		"id":	"minecraft:sculk_shrieker"
+},
+	"order": 12,
+	"impact": 3,
+	"name": "Proto Gravemind",
+	"description": "WIP Proto graveminds are the last seen evolution of wraiths, evolving from apostles these entities have had their bodies completly overtaken by sculk. Their body mass is now 100% sculk, and due to this, they inherit the power to manipulate sculk to things never before seen. These are high-priority targets, as if they should ever evolve into a gravemind, the end is nigh.",
+    "unchoosable": true
+}

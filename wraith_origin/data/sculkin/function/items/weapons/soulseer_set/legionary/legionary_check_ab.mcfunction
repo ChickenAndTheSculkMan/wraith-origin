@@ -1,0 +1,4 @@
+execute unless block ~ ~-1 ~ air unless entity @s[predicate=sculkin:ground_sneaking] run function sculkin:items/weapons/soulseer_set/legionary/legionary_abilities/ground_norm
+execute unless block ~ ~-1 ~ air if entity @s[predicate=sculkin:ground_sneaking] run function sculkin:items/weapons/soulseer_set/legionary/legionary_abilities/ground_sneak
+execute if block ~ ~-1 ~ air unless entity @s[predicate=sculkin:ground_sneaking] run function sculkin:items/weapons/soulseer_set/legionary/legionary_abilities/sky_norm
+execute if block ~ ~-1 ~ air if entity @s[predicate=sculkin:ground_sneaking] run function sculkin:items/weapons/soulseer_set/legionary/legionary_abilities/sky_sneak

@@ -1,0 +1,19 @@
+{
+    "type": "origins:status_bar_texture",
+    "texture_map": {
+        "minecraft:hud/heart/full": "wraith_origin_rp:hud/heart/full",
+        "minecraft:hud/heart/half": "wraith_origin_rp:hud/heart/half",
+        "minecraft:hud/heart/full_blinking": "wraith_origin_rp:hud/heart/full_blinking",
+        "minecraft:hud/heart/half_blinking": "wraith_origin_rp:hud/heart/half_blinking",
+        "minecraft:hud/food_full": "wraith_origin_rp:hud/food_full",
+        "minecraft:hud/food_half": "wraith_origin_rp:hud/food_half",
+        "minecraft:hud/food_empty": "wraith_origin_rp:hud/food_empty",
+        "minecraft:hud/armor_full": "wraith_origin_rp:hud/armor_full",
+        "minecraft:hud/armor_half": "wraith_origin_rp:hud/armor_half",
+        "minecraft:hud/experience_bar_background": "wraith_origin_rp:hud/experience_bar_background",
+        "minecraft:hud/experience_bar_progress": "wraith_origin_rp:hud/experience_bar_progress"
+    },
+    "name": "hidden",
+    "description": "hidden",
+    "hidden": true
+}
