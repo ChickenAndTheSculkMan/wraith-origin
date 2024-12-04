@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "origins": [
+    "sculkin:wraith",
+    "sculkin:apostle",
+    "sculkin:proto_gravemind"
+  ]
+}

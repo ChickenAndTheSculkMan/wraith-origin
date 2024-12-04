@@ -1,0 +1,11 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:saturation 1 2 true"
+    },
+    "cooldown": 1,
+    "hidden": true,
+    "name": "Sus eater",
+    "description": "this power is supposed to be hidden! if you see this, it is likely a bug"
+}

@@ -1,0 +1,7 @@
+execute if score @s wraith_origin_souls matches 25.. run summon warden ^1 ^1 ^ {PersistenceRequired:0b,NoAI:0b,CanPickUpLoot:0b,Health:40f,attributes:[{id:"minecraft:generic.attack_damage",base:7},{id:"minecraft:generic.max_health",base:40},{id:"minecraft:generic.scale",base:0.5}],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
+execute if score @s wraith_origin_souls matches 25.. run summon warden ^-1 ^1 ^ {PersistenceRequired:0b,NoAI:0b,CanPickUpLoot:0b,Health:40f,attributes:[{id:"minecraft:generic.attack_damage",base:7},{id:"minecraft:generic.max_health",base:40},{id:"minecraft:generic.scale",base:0.5}],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
+execute if score @s wraith_origin_souls matches 25.. run summon warden ^ ^1 ^1 {PersistenceRequired:0b,NoAI:0b,CanPickUpLoot:0b,Health:40f,attributes:[{id:"minecraft:generic.attack_damage",base:7},{id:"minecraft:generic.max_health",base:40},{id:"minecraft:generic.scale",base:0.5}],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
+execute if score @s wraith_origin_souls matches 25.. run playsound block.sculk_shrieker.shriek player @a[distance=..15] ~ ~ ~ 1 1 1
+execute if score @s wraith_origin_souls matches 25.. run particle sculk_charge_pop ~ ~ ~ 2 0 2 0 50 normal
+execute if score @s wraith_origin_souls matches ..25 run title @s actionbar "You need more souls!"
+execute if score @s wraith_origin_souls matches 25.. run scoreboard players remove @s wraith_origin_souls 25

@@ -1,0 +1,10 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "scoreboard players add @s wraith_origin_souls 1"
+    },
+    "cooldown": 1,
+    "name": "Soul eater",
+    "description": "Due to sculk tumours all over the body, Wraiths are capable of storing souls from killed mobs for later use"
+}

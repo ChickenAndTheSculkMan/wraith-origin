@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"sculkin:sculked",
+		"sculkin:infest",
+		"sculkin:sculked_tagged",
+		"sculkin:soul_eater",
+		"sculkin:death_devourer",
+		"sculkin:death_devouroid",
+		"sculkin:sculk_connection",
+		"sculkin:sky_fright",
+		"sculkin:burnsculked",
+		"sculkin:sculk_throw",
+		"sculkin:regenless",
+		"sculkin:regen",
+		"sculkin:wraith_health"
+	],
+	"icon": {
+		"id":	"minecraft:sculk"
+},
+	"order": 12,
+	"impact": 3,
+	"name": "Wraith",
+	"description": "Wraiths are agents of chaos, they have one and only one object: Spread sculk. Be this either through the gravemind or just sculk itself, they want to spread it. Wraith's are humans whom have had their entire nervous system and brain taken over. Now their mind has been replaced by something... much more wicked. Wraiths can evolve into higher forms, meaning they should be dealt with swiftly"
+}

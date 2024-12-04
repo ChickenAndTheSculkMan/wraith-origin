@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "name": "Death Devourer",
+    "description": "Wraiths are unable to eat ANYTHING, instead they only regain hunger by killing."
+}

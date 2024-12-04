@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 729831
+      },
+      "model": "minecraft:item/sculk_fabricator"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 729832
+      },
+      "model": "minecraft:item/spore_spreader"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 729833
+      },
+      "model": "minecraft:item/sculk_rooter"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "origins:target_action_on_hit",
+    "name": "Infest",
+    "description": "Higher forms of sculk infection such as wraiths are capable of infecting non-infected lifeforms. Eventually bursting forth medium-sized amounts of sculk",
+    "cooldown": 1,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute unless entity @s[type=minecraft:player] unless entity @s[tag=sculkin.infected] run function sculkin:infection/infection_prime"
+    }
+}

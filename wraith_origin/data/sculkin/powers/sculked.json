@@ -1,0 +1,9 @@
+{
+    "type": "origins:model_color",
+    "red": 0.0,
+    "green": 0.0,
+    "blue": 1.0,
+    "alpha": 1.0,
+    "name": "Consumed",
+    "description": "Their taken over bodies are much more... bluish than before?"
+}
